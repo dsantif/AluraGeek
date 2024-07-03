@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "name": "Collar perla",
+      "price": "2,500",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/485313-800-auto?v=638482606765930000&width=800&height=auto&aspect=true",
+      "id": "1"
+    },
+    {
+      "name": "Anillo perla",
+      "price": "1,700",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/485318-800-auto?v=638482606824000000&width=800&height=auto&aspect=true",
+      "id": "2"
+    },
+    {
+      "name": "Earcuff dorado",
+      "price": "1,000",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/485704-800-auto?v=638519257370530000&width=800&height=auto&aspect=true",
+      "id": "3"
+    },
+    {
+      "name": "Aretes corazon",
+      "price": "2,300",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/484942-800-auto?v=638482602423430000&width=800&height=auto&aspect=true",
+      "id": "4"
+    },
+    {
+      "name": "Cadena dorada",
+      "price": "3,000",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/474797-800-auto?v=638482490131030000&width=800&height=auto&aspect=true",
+      "id": "5"
+    },
+    {
+      "name": "Anillo ondas",
+      "price": "1,900",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/485671-800-auto?v=638519256234130000&width=800&height=auto&aspect=true",
+      "id": "6"
+    },
+    {
+      "id": "9bfa",
+      "name": "Aretes redondos",
+      "price": "3,500",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/485698-800-auto?v=638519257078800000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id": "fd92",
+      "name": "Aretes infinito",
+      "price": "2,000",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/485344-800-auto?v=638482607074000000&width=800&height=auto&aspect=true"
+    },
+    {
+      "id": "db5c",
+      "name": "Brazalete de tenis",
+      "price": "4,000",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/477262-800-auto?v=638482513370200000&width=800&height=auto&aspect=true"
+    }
+  ]
+}
