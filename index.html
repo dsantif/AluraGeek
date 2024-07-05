@@ -1,62 +1,67 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Alura-Geek Shop</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="images/store-front.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css"/>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Alura-Geek Shop</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" type="image/png" href="images/store-front.png">
-  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.2/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-</head>
+  <body>
+    <!--Mai container-->
+    <div class="main_container">
 
-<body>
-  
-  <!--Header-->
-  <div class="header">
-    <header><img class="destello" src="images/destello.png">AluraJewerly<img class="destello" src="images/destello1.png"></header>
-  </div>
+      <!--Header-->
+      <div class="header">
+        <header>
+          <img class="destello" src="images/destello.png" />AluraJewerly<img
+            class="destello"
+            src="images/destello1.png"
+          />
+        </header>
+      </div>
 
-  <!--Container-->
-  <div class="first_container"> <!--contenedor general-->
-
-    <!--Products-->
-    <div data-product class="my_products">
-      <h2 class="products_title">Productos</h2>
-      <div id="scrollbar" class="products_container">
-        <div class="products_line">
-
-        </div>  
-      </div>  
-    </div>
-
-    <!--Formulario-->
-    <div class="add_producto">
-      <h2 class="form_title">Agregar Producto</h2>
-      <form data-form>
-        <input data-name type="text" name="nombre" placeholder="Nombre">
-        <input data-price type="text" name="precio" placeholder="Precio">
-        <input data-image type="text" name="imagen" placeholder="Imagen">
+      <!--General container-->
+      <div class="first_container">
         
-        <!--Buttons-->
-        <div class="buttons_form">
-          <button class="btn_enviar" type="submit" id="button">Enviar</button>
-          <button class="btn_limpiar" type="reset" id="button">Limpiar</button>
+        <!--Products-->
+        <div data-product class="my_products">
+          <h2 class="products_title">Productos</h2>
+          <div id="scrollbar" class="products_container">
+            <div class="products_line"></div>
+          </div>
         </div>
-      </form>  
+
+        <!--Form-->
+        <div class="add_producto">
+          <h2 class="form_title">Agregar Producto</h2>
+          <form data-form>
+            <input data-name type="text" name="nombre" placeholder="Nombre" />
+            <input data-price type="text" name="precio" placeholder="Precio" />
+            <input data-image type="text" name="imagen" placeholder="Imagen" />
+
+            <!--Buttons-->
+            <div class="buttons_form">
+              <button class="btn_enviar" type="submit" id="button">
+                Enviar
+              </button>
+              <button class="btn_limpiar" type="reset" id="button">
+                Limpiar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <footer>
+        <p>Desarrollado por Diana Santillana Fernández 2024</p>
+      </footer>
     </div>
-  </div>
 
-  <!--Footer-->
-  <div class="footer">
-    <div class="footer__text">
-      <p>Desarrollado por Diana Santillana Fernández 2024</p>
-    </div>
-  </div>
-  
-
-  <script type="module" src="js/controllers/main.js"></script>
-</body>
-
+    <script type="module" src="js/controllers/main.js"></script>
+  </body>
 </html>

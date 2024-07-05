@@ -19,12 +19,6 @@
       "id": "3"
     },
     {
-      "name": "Aretes corazon",
-      "price": "2,300",
-      "image": "https://pandoramx.vtexassets.com/arquivos/ids/484942-800-auto?v=638482602423430000&width=800&height=auto&aspect=true",
-      "id": "4"
-    },
-    {
       "name": "Cadena dorada",
       "price": "3,000",
       "image": "https://pandoramx.vtexassets.com/arquivos/ids/474797-800-auto?v=638482490131030000&width=800&height=auto&aspect=true",
@@ -49,10 +43,10 @@
       "image": "https://pandoramx.vtexassets.com/arquivos/ids/485344-800-auto?v=638482607074000000&width=800&height=auto&aspect=true"
     },
     {
-      "id": "db5c",
-      "name": "Brazalete de tenis",
-      "price": "4,000",
-      "image": "https://pandoramx.vtexassets.com/arquivos/ids/477262-800-auto?v=638482513370200000&width=800&height=auto&aspect=true"
+      "id": "b8f9",
+      "name": "Charm deadpool",
+      "price": "4,500",
+      "image": "https://pandoramx.vtexassets.com/arquivos/ids/485778-800-auto?v=638519258722870000&width=800&height=auto&aspect=true"
     }
   ]
 }
